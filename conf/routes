@@ -1,0 +1,4 @@
+GET     /api/health     controllers.ApiController.health
+GET     /api/           controllers.ApiController.list
+GET     /api/socket     controllers.ApiController.socket
+POST    /api/           controllers.ApiController.submit
